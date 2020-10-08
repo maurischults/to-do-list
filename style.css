@@ -57,9 +57,16 @@ h2 {
   border-radius: 20px;
 }
 
+.kalender {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
 /*---KALENDER---*/
 #calendar-container {
-  width: 60vw;
+  width: 60%;
   margin: auto;
   display: grid;
   grid-template-columns: 7, 1fr;
