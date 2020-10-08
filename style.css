@@ -33,9 +33,17 @@ h2 {
   margin: 40px;
 }
 
+.Add-task {
+  display: flex;
+  justify-content: center;
+}
+
 #Input {
-  margin-top: 20px;
-  width: 85%;
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 10px;
+  width: 30%;
   height: 40px;
   font-size: 15px;
 }
