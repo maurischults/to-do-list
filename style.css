@@ -52,10 +52,24 @@ h2 {
   padding: 30px;
   align-items: center;
 }
-.october {
+caption {
   align-content: center;
   font-size: large;
   font-weight: bold;
+}
+
+#calendar .weekdays {
+  background: #8e352e;
+}
+
+#calendar .weekdays th {
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 20px;
+  border: none !important;
+  padding: 10px 6px;
+  color: #fff;
+  font-size: 13px;
 }
 .calendar {
   background-color: ghostwhite;
