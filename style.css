@@ -1,5 +1,4 @@
-0* {
-  overflow-x: hidden;
+* {
   background-color: blanchedalmond;
   box-sizing: border-box;
 }
@@ -46,9 +45,10 @@ h2 {
 
 /*---KALENDER---*/
 #calendar-container {
-  width: 100%;
+  width: 70vw;
+  margin: auto;
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: 7, 1fr;
   padding: 30px;
   align-items: center;
 }
@@ -58,24 +58,20 @@ caption {
   font-weight: bold;
 }
 
-#calendar .weekdays {
-  background: #8e352e;
-}
-
-#calendar .weekdays th {
+.calendar .weekdays th {
   text-align: center;
-  text-transform: uppercase;
   line-height: 20px;
-  border: none !important;
-  padding: 10px 6px;
-  color: #fff;
-  font-size: 13px;
+  color: black;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
 }
 .calendar {
   background-color: ghostwhite;
 }
 .calendar td,
-.calendar th {
+.calendar th,
+.weekdays th {
   padding: 20px;
   box-sizing: border-box;
   border: 1px solid #ccc;
