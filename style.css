@@ -84,6 +84,11 @@ caption {
 .calendar {
   background-color: ghostwhite;
 }
+
+.calendar a:hover {
+  size: 10%;
+  color: turquoise;
+}
 .calendar td,
 .calendar th,
 .weekdays th {
