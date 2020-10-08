@@ -11,25 +11,23 @@ body {
 h2 {
   display: flex;
   justify-content: center;
+  font-size: 50px;
 }
 
-.list {
-  font-size: ;
+.to-do {
+  background-color: grey;
+  border: 10px hotpink;
 }
 
 .elemendid {
-  padding-left: 0;
+  padding: 0;
 }
 
-.elemendid li {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  flex-wrap: wrap;
-  background-color: burlywood;
+.elemendid label {
+  font-size: 20px;
+  background-color: grey;
   border: 10px black;
-  margin: 5px;
-  padding: 10px;
+  margin: 20px;
 }
 
 #Input {
