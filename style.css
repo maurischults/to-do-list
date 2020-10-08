@@ -1,3 +1,51 @@
+* {
+  overflow-x: hidden;
+  background-color: blanchedalmond;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  font-size: ;
+}
+
+.elemendid {
+  padding-left: 0;
+}
+
+.elemendid li {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: burlywood;
+  border: 10px black;
+  margin: 5px;
+  padding: 10px;
+}
+
+#Input {
+  width: 85%;
+  height: 40px;
+  font-size: 15px;
+}
+
+.nupp {
+  font-weight: bold;
+  font-size: 25px;
+  background-color: darkgray;
+  margin: 10px 5px 10px 0px;
+  padding: 10px 50px 10px 30px;
+}
+
 /*---KALENDER---*/
 #calendar-container {
   width: 100%;
