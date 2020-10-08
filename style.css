@@ -161,3 +161,14 @@ caption {
 .day {
   color: #000;
 }
+.day .undone-event .day .upcoming-event {
+  border: 1px;
+  border-radius: 3px;
+  text-align: center;
+}
+.day .undone-event {
+  background-color: red;
+}
+.day .upcoming-event {
+  background-color: lightseagreen;
+}
