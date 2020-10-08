@@ -80,24 +80,25 @@ caption {
   margin-bottom: 20px;
 }
 
-#calendar .weekdays {
-  background: #8e352e;
-}
-
-#calendar .weekdays th {
+.calendar .weekdays th {
   text-align: center;
-  text-transform: uppercase;
   line-height: 20px;
-  border: none !important;
-  padding: 10px 6px;
-  color: #fff;
-  font-size: 13px;
+  color: black;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
 }
 .calendar {
   background-color: ghostwhite;
 }
+
+.calendar a:hover {
+  size: 10%;
+  color: turquoise;
+}
 .calendar td,
-.calendar th {
+.calendar th,
+.weekdays th {
   padding: 20px;
   box-sizing: border-box;
   border: 1px solid #ccc;
