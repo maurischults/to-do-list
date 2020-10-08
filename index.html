@@ -10,29 +10,43 @@
     <h2>To-Do-list</h2>
 
     <div class="list">
-        
-    <ul class="elemendid">
+      <ul class="elemendid">
         <li class="to-do">
-        <input type="checkbox" />
-        <label class="tegevus"> Jaluta koera</label>
-        </br></li>
-        <li class="to-do">
-        <input type="checkbox" />
-        <label class="tegevus"> Mine trenni</label>
-        </br></li>
-        <li class="to-do">
-        <input type="checkbox" />
-        <label class="tegevus"> Korista tube</label>
-        </br></li>
-        <li class="to-do">
-        <input type="checkbox" />
-        <label class="tegevus"> Tee koolitööd</label>
-        </br></li>
-        <li class="to-do">
-        <input type="checkbox" />
-        <label class="tegevus"> Loe raamatut</label>
+          <input id="todo-check" type="checkbox" />
+          <label for="todo-check"
+            ><p>Jaluta koera</p>
+            <p>08.10.2020</p></label
+          >
         </li>
-    </ul>
+        <li class="to-do">
+          <input type="checkbox" />
+          <label for="todo-check"
+            ><p>Mine trenni</p>
+            <p>11.10.2020</p></label
+          >
+        </li>
+        <li class="to-do">
+          <input type="checkbox" />
+          <label for="todo-check"
+            ><p>Korista tube</p>
+            <p>11.10.2020</p></label
+          >
+        </li>
+        <li class="to-do">
+          <input type="checkbox" />
+          <label for="todo-check"
+            ><p>Tee koolitööd</p>
+            <p>06.10.2020</p></label
+          >
+        </li>
+        <li class="to-do">
+          <input type="checkbox" />
+          <label for="todo-check"
+            ><p>Loe raamatut</p>
+            <p>14.10.2020</p></label
+          >
+        </li>
+      </ul>
 
       <div class="Add-task">
         <input type="text" id="Input" placeholder="Tegevus.." />
@@ -42,9 +56,11 @@
 
     <!--KALENDER-->
     <div id="calendar-container">
-  
       <table class="calendar">
-        <caption>Oktoober</caption>
+        <h2>Oktoober</h2>
+        <div class="kalender">
+          <input type="date" />
+        </div>
         <tr class="weekdays">
           <th scope="col">Esmaspäev</th>
           <th scope="col">Teisipäev</th>
@@ -54,7 +70,7 @@
           <th scope="col">Laupäev</th>
           <th scope="col">Pühapäev</th>
         </tr>
-      
+
         <tr class="days">
           <td class="day-other-month">
             <div class="date"><a>28</a></div>
@@ -85,18 +101,25 @@
           </td>
           <td class="day">
             <div class="date"><a>6</a></div>
+            <div class="undone-event"><p>Tee koolitööd</p></div>
           </td>
           <td class="day">
             <div class="date"><a>7</a></div>
           </td>
           <td class="day">
             <div class="date"><a>8</a></div>
+
+            <div class="undone-event"><p>Jaluta koera</p></div>
           </td>
           <td class="day">
             <div class="date"><a>9</a></div>
           </td>
           <td class="day">
             <div class="date"><a>10</a></div>
+
+            <div class="upcoming-event"><p>Mine trenni</p></div>
+
+            <div class="upcoming-event"><p>Korista tube</p></div>
           </td>
           <td class="day">
             <div class="date"><a>11</a></div>
@@ -111,6 +134,8 @@
           </td>
           <td class="day">
             <div class="date"><a>14</a></div>
+
+            <div class="upcoming-event"><p>Loe raamatut</p></div>
           </td>
           <td class="day">
             <div class="date"><a>15</a></div>

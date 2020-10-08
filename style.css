@@ -1,11 +1,10 @@
 * {
-  /* overflow-x: hidden; */
-  background-color: blanchedalmond;
   box-sizing: border-box;
 }
 
 body {
   width: 100%;
+  background-color: blanchedalmond;
 }
 
 h2 {
@@ -20,7 +19,23 @@ h2 {
   border-radius: 20px;
   color: rgb(252, 253, 253);
   margin: 5px;
-  padding: 5px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.to-do label {
+  display: flex;
+  background-color: transparent;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.to-do p {
+  margin: 0;
+  padding: 0;
 }
 
 .elemendid {
@@ -30,7 +45,13 @@ h2 {
 .elemendid label {
   font-size: 25px;
   background-color: grey;
-  margin: 40px;
+  margin: 10px;
+}
+
+.kuupäev {
+  display: inline-flex;
+
+  margin: 0 !important;
 }
 
 .Add-task {
@@ -132,6 +153,14 @@ caption {
 .day {
   color: #000;
 }
-.undone-event {
+.day .undone-event .day .upcoming-event {
+  border: 1px;
+  border-radius: 3px;
+  text-align: center;
+}
+.day .undone-event {
   background-color: red;
+}
+.day .upcoming-event {
+  background-color: lightseagreen;
 }
