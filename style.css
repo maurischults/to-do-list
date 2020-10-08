@@ -40,6 +40,13 @@ h2 {
 .hilinenud {
   color: red;
 }
+.hetkel {
+  color: yellowgreen;
+}
+
+.tulemas {
+  color: turquoise;
+}
 
 .to-do p {
   margin: 0;
@@ -161,14 +168,21 @@ caption {
 .day {
   color: #000;
 }
-.day .undone-event .day .upcoming-event {
+
+.day .event {
   border: 1px;
   border-radius: 3px;
   text-align: center;
 }
-.day .undone-event {
-  background-color: red;
+.day .hetkel {
+  background-color: yellowgreen;
+  color: #000;
 }
-.day .upcoming-event {
+.day .hilinenud {
+  background-color: red;
+  color: #000;
+}
+.day .tulemas {
   background-color: lightseagreen;
+  color: black;
 }
