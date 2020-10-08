@@ -48,9 +48,8 @@ h2 {
 
 /*---KALENDER---*/
 .calendar {
-  display: grid;
-  grid-column-start: 1;
-  grid-column-end: 8;
-  grid-row-start: 1;
-  grid-row-end: 5;
+  display: flex;
+}
+tr {
+  padding: 10px;
 }
