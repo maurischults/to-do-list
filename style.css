@@ -16,7 +16,11 @@ h2 {
   justify-content: center;
   font-size: 60px;
 }
-
+.list {
+  width: 60%;
+  margin: auto;
+  display: grid;
+}
 .to-do {
   background-color: grey;
   border: 2px solid rgb(34, 250, 232);
