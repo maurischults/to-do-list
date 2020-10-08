@@ -11,12 +11,16 @@ body {
 h2 {
   display: flex;
   justify-content: center;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .to-do {
   background-color: grey;
-  border: 10px hotpink;
+  border: 2px solid rgb(34, 250, 232);
+  border-radius: 20px;
+  color: rgb(252, 253, 253);
+  margin: 5px;
+  padding: 5px;
 }
 
 .elemendid {
@@ -24,13 +28,13 @@ h2 {
 }
 
 .elemendid label {
-  font-size: 20px;
+  font-size: 25px;
   background-color: grey;
-  border: 10px black;
-  margin: 20px;
+  margin: 40px;
 }
 
 #Input {
+  margin-top: 20px;
   width: 85%;
   height: 40px;
   font-size: 15px;
@@ -41,7 +45,8 @@ h2 {
   font-size: 25px;
   background-color: darkgray;
   margin: 10px 5px 10px 0px;
-  padding: 10px 50px 10px 30px;
+  padding: 5px 30px 5px 30px;
+  border-radius: 20px;
 }
 
 /*---KALENDER---*/
