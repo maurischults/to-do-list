@@ -1,7 +1,33 @@
 /*---KALENDER---*/
-.calendar {
-  display: flex;
+#calendar-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
 }
-tr {
-  padding: 10px;
+
+.calendar tr {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 100%;
+}
+.calendar td {
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.calendar .date {
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 4px;
+  width: 10px;
+  flex: 0 0 auto;
+  align-self: flex-end;
+}
+.day-other-month {
+  color: gray;
+}
+.day {
+  color: #000;
 }
