@@ -1,5 +1,5 @@
-0* {
-  overflow-x: hidden;
+* {
+  /* overflow-x: hidden; */
   background-color: blanchedalmond;
   box-sizing: border-box;
 }
@@ -51,16 +51,18 @@ h2 {
 
 /*---KALENDER---*/
 #calendar-container {
-  width: 100%;
+  width: 60vw;
+  margin: auto;
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: 7, 1fr;
   padding: 30px;
   align-items: center;
 }
 caption {
   align-content: center;
-  font-size: large;
+  font-size: 30px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 #calendar .weekdays {
