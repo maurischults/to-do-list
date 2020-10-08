@@ -2,6 +2,25 @@
   box-sizing: border-box;
 }
 
+/*---SVG---*/
+svg {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@keyframes dash {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+path {
+  stroke-dasharray: 180;
+  stroke-dashoffset: 180;
+  animation: dash 2s infinite;
+}
+
 .laius {
   margin: auto;
   width: 95%;
